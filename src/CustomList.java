@@ -10,21 +10,30 @@ public class CustomList <T> {
     private Node head=null;
     private Node tail=null;
     public void addLast(T value){
+        Node node = new Node(value, null);
         if(head==null){
-            Node node = new Node(value, null);
-            tail = node;
             head = node;
         }else if(head==tail){
-            Node node=new Node(value,null);
-            tail=node;
             head.next=node;
         }else{
-            Node node=new Node(value,null);
             tail.next=node;
-            tail=node;
         }
+        tail=node;
     }
     public T getLast(){
         return tail.value;
+    }
+    public void addFirst(T value){
+        Node node = new Node(value, null);
+        if(head==null){
+            head=node;
+            tail=node;
+        }else{
+            node.next=head;
+            head=node;
+        }
+    }
+    public T getFirst(){
+        return head.value;
     }
 }

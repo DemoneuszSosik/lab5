@@ -4,6 +4,7 @@ public class Main {
         list.addLast("abc");
         list.addLast("def");
         System.out.println(list.getLast());
+        System.out.println(list.getFirst());
 
     }
 }
