@@ -1,5 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        CustomList <String> list=new CustomList<>();
+        list.addLast("abc");
+        list.addLast("def");
+        System.out.println(list.getLast());
+
     }
 }
