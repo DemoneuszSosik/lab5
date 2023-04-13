@@ -36,4 +36,30 @@ public class CustomList <T> {
     public T getFirst(){
         return head.value;
     }
+    public T removeFirst(){
+        T first=getFirst();
+        if(head==tail){
+            head=null;
+            tail=null;
+        }else{
+            head=head.next;
+        }
+        return first;
+    }
+    public T removeLast(){
+        T last=getLast();
+        Node newLast=head;
+        if(head==tail){
+            head=null;
+            tail=null;
+            return last;
+        }
+        while(newLast.next!=tail){
+            newLast=newLast.next;
+        }
+        newLast.next=null;
+        tail=newLast;
+        return last;
+
+    }
 }
