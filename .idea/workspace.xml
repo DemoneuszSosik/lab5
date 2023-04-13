@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b60a068-34f6-471f-a5b5-72fc56f5116a" name="Changes" comment="1b.">
+    <list default="true" id="7b60a068-34f6-471f-a5b5-72fc56f5116a" name="Changes" comment="1c.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CustomList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681386082247</updated>
-      <workItem from="1681387458121" duration="2358000" />
+      <workItem from="1681387458121" duration="3239000" />
     </task>
     <task id="LOCAL-00001" summary="1a.">
       <created>1681388550295</created>
@@ -69,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681388839902</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1c.">
+      <created>1681389936002</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681389936002</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,6 +84,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1a." />
     <MESSAGE value="1b." />
-    <option name="LAST_COMMIT_MESSAGE" value="1b." />
+    <MESSAGE value="1c." />
+    <option name="LAST_COMMIT_MESSAGE" value="1c." />
   </component>
 </project>
